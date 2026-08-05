@@ -19,3 +19,10 @@ This project is intended for preservation, research, and educational purposes. N
 - Helicopter character causes loading failure
 - UI layering issues remain
 - Some shaders still require restoration
+
+
+## Build
+- Clone this repo
+- Import project into Unity. Should default to 5.6.1
+- Select file, then build settings
+- Choose your platform then click build
