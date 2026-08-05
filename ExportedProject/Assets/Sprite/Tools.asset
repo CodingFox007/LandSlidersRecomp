@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Tools
+  m_Rect:
+    serializedVersion: 2
+    x: 552.02673
+    y: 0.026751041
+    width: 42.946495
+    height: 52.897125
+  m_Offset: {x: 4.500001, y: 2.5246868}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 25
+  m_Pivot: {x: 0.60478157, y: 0.54772824}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 111345e80b3ef014c9604ac6089fa39d, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 12
+      topology: 0
+      firstVertex: 0
+      vertexCount: 6
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 050004000100030001000400000001000300020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 6
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 120
+      _typelessdata: 7b142e3f8fc2753f0000000000000000000000000ad7a3bde17a94bf0000000000000000000000007b142e3fe17a94bf000000000000000000000000ec51b8be8fc2753f000000000000000000000000b81e85bf8fc2f53e000000000000000000000000b81e85bf0ad723be000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 552.02673
+      y: 0.026751041
+      width: 42.946495
+      height: 52.897125
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 546, y: -3}
+    settingsRaw: 67
+    uvTransform: {x: 25, y: 578, z: 25, w: 29}

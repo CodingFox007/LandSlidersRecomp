@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: SpecialEventsManagerCNY
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ba5f466bc4ade3288939f95dc1b28f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_ID: CNY
+  m_scheduleURL: https://prettygreat.com/data/CNY.txt
+  m_currentSelectorURL: https://prettygreat.com/data/CNYday.txt
+  m_currentSelectorOverride:
+  m_startingChanceOneIn: 25
+  m_spawnSetPiece: {fileID: 114724804207875695, guid: 9f73d09f0b4c0e549a3fd949ce53de87, type: 2}
+  m_syncMinutes: 30
+  m_buyAllIAP:
+  - 
+  - unlockspecial1
+  - unlockspecial1
+  - unlockspecial1
+  - unlockspecial2
+  - unlockspecial2
+  - unlockspecial2
+  - unlockspecial3
+  - unlockspecial3
+  - unlockspecial3
+  - unlockspecial4
+  - unlockspecial4
+  - unlockspecial4
+  m_defaultSchedule: "[\n    {\n        \"id\": \"rat\",\n        \"4th\": \"Unavailable\",\n        \"5th\": \"Available\",\n        \"6th\": \"Unavailable\",\n        \"7th\": \"Unavailable\",\n        \"8th\": \"Unavailable\",\n        \"9th\": \"Unavailable\",\n        \"10th\": \"Unavailable\",\n        \"11th\": \"Available\",\n        \"12th\": \"Unavailable\",\n        \"13th\": \"Unavailable\",\n        \"14th\": \"Unavailable\",\n        \"15th\": \"Unavailable\",\n        \"16th\": \"Unavailable\",\n        \"17th\": \"Available\",\n        \"18th\": \"Available\",\n        \"19th\": \"Available\",\n        \"20th\": \"Available\",\n        \"21st\": \"Available\",\n        \"22nd\": \"Available\"\n    },\n    {\n        \"id\": \"ox\",\n        \"4th\": \"Unavailable\",\n        \"5th\": \"Unavailable\",\n        \"6th\": \"Available\",\n        \"7th\": \"Unavailable\",\n        \"8th\": \"Unavailable\",\n        \"9th\": \"Unavailable\",\n        \"10th\": \"Unavailable\",\n        \"11th\": \"Unavailable\",\n        \"12th\": \"Available\",\n        \"13th\": \"Unavailable\",\n        \"14th\": \"Unavailable\",\n        \"15th\": \"Unavailable\",\n        \"16th\": \"Unavailable\",\n        \"17th\": \"Unavailable\",\n        \"18th\": \"Available\",\n        \"19th\": \"Available\",\n        \"20th\": \"Available\",\n        \"21st\": \"Available\",\n        \"22nd\": \"Available\"\n    },\n    {\n        \"id\": \"tiger\",\n        \"4th\": \"Unavailable\",\n        \"5th\": \"Unavailable\",\n        \"6th\": \"Unavailable\",\n        \"7th\": \"Available\",\n        \"8th\": \"Unavailable\",\n        \"9th\": \"Unavailable\",\n        \"10th\": \"Unavailable\",\n        \"11th\": \"Unavailable\",\n        \"12th\": \"Unavailable\",\n        \"13th\": \"Available\",\n        \"14th\": \"Unavailable\",\n        \"15th\": \"Unavailable\",\n        \"16th\": \"Unavailable\",\n        \"17th\": \"Unavailable\",\n        \"18th\": \"Unavailable\",\n        \"19th\": \"Available\",\n        \"20th\": \"Available\",\n        \"21st\": \"Available\",\n        \"22nd\": \"Available\"\n    },\n    {\n        \"id\": \"rabbit\",\n        \"4th\": \"Unavailable\",\n        \"5th\": \"Unavailable\",\n        \"6th\": \"Unavailable\",\n        \"7th\": \"Unavailable\",\n        \"8th\": \"Available\",\n        \"9th\": \"Unavailable\",\n        \"10th\": \"Unavailable\",\n        \"11th\": \"Unavailable\",\n        \"12th\": \"Unavailable\",\n        \"13th\": \"Unavailable\",\n        \"14th\": \"Available\",\n        \"15th\": \"Unavailable\",\n        \"16th\": \"Unavailable\",\n        \"17th\": \"Unavailable\",\n        \"18th\": \"Unavailable\",\n        \"19th\": \"Unavailable\",\n        \"20th\": \"Available\",\n        \"21st\": \"Available\",\n        \"22nd\": \"Available\"\n    },\n    {\n        \"id\": \"dragon\",\n        \"4th\": \"Unavailable\",\n        \"5th\": \"Unavailable\",\n        \"6th\": \"Unavailable\",\n        \"7th\": \"Unavailable\",\n        \"8th\": \"Unavailable\",\n        \"9th\": \"Available\",\n        \"10th\": \"Unavailable\",\n        \"11th\": \"Unavailable\",\n        \"12th\": \"Unavailable\",\n        \"13th\": \"Unavailable\",\n        \"14th\": \"Unavailable\",\n        \"15th\": \"Available\",\n        \"16th\": \"Unavailable\",\n        \"17th\": \"Unavailable\",\n        \"18th\": \"Unavailable\",\n        \"19th\": \"Unavailable\",\n        \"20th\": \"Unavailable\",\n        \"21st\": \"Available\",\n        \"22nd\": \"Available\"\n    },\n    {\n        \"id\": \"snake\",\n        \"4th\": \"10-11pm\",\n        \"5th\": \"10-11pm\",\n        \"6th\": \"10-11pm\",\n        \"7th\": \"10-11pm\",\n        \"8th\": \"10-11pm\",\n        \"9th\": \"10-11pm\",\n        \"10th\": \"Available\",\n        \"11th\": \"10-11pm\",\n        \"12th\": \"10-11pm\",\n        \"13th\": \"10-11pm\",\n        \"14th\": \"10-11pm\",\n        \"15th\": \"10-11pm\",\n        \"16th\": \"Available\",\n        \"17th\": \"10-11pm\",\n        \"18th\": \"10-11pm\",\n        \"19th\": \"10-11pm\",\n        \"20th\": \"10-11pm\",\n        \"21st\": \"10-11pm\",\n        \"22nd\": \"Available\"\n    },\n    {\n        \"id\": \"horse\",\n        \"4th\": \"Unavailable\",\n        \"5th\": \"Unavailable\",\n        \"6th\": \"Unavailable\",\n        \"7th\": \"Unavailable\",\n        \"8th\": \"Unavailable\",\n        \"9th\": \"Unavailable\",\n        \"10th\": \"Unavailable\",\n        \"11th\": \"Available\",\n        \"12th\": \"Unavailable\",\n        \"13th\": \"Unavailable\",\n        \"14th\": \"Unavailable\",\n        \"15th\": \"Unavailable\",\n        \"16th\": \"Unavailable\",\n        \"17th\": \"Available\",\n        \"18th\": \"Unavailable\",\n        \"19th\": \"Unavailable\",\n        \"20th\": \"Unavailable\",\n        \"21st\": \"Unavailable\",\n        \"22nd\": \"Available\"\n    },\n    {\n        \"id\": \"goat\",\n        \"4th\": \"Unavailable\",\n        \"5th\": \"Unavailable\",\n        \"6th\": \"Unavailable\",\n        \"7th\": \"Unavailable\",\n        \"8th\": \"Unavailable\",\n        \"9th\": \"Unavailable\",\n        \"10th\": \"Unavailable\",\n        \"11th\": \"Unavailable\",\n        \"12th\": \"Available\",\n        \"13th\": \"Unavailable\",\n        \"14th\": \"Unavailable\",\n        \"15th\": \"Unavailable\",\n        \"16th\": \"Unavailable\",\n        \"17th\": \"Unavailable\",\n        \"18th\": \"Available\",\n        \"19th\": \"Unavailable\",\n        \"20th\": \"Unavailable\",\n        \"21st\": \"Unavailable\",\n        \"22nd\": \"Available\"\n    },\n    {\n        \"id\": \"rooster\",\n        \"4th\": \"5-6am\",\n        \"5th\": \"5-6am\",\n        \"6th\": \"5-6am\",\n        \"7th\": \"5-6am\",\n        \"8th\": \"5-6am\",\n        \"9th\": \"5-6am\",\n        \"10th\": \"5-6am\",\n        \"11th\": \"5-6am\",\n        \"12th\": \"5-6am\",\n        \"13th\": \"Available\",\n        \"14th\": \"5-6am\",\n        \"15th\": \"5-6am\",\n        \"16th\": \"5-6am\",\n        \"17th\": \"5-6am\",\n        \"18th\": \"5-6am\",\n        \"19th\": \"Available\",\n        \"20th\": \"5-6am\",\n        \"21st\": \"5-6am\",\n        \"22nd\": \"Available\"\n    },\n    {\n        \"id\": \"cnydog\",\n        \"4th\": \"Unavailable\",\n        \"5th\": \"Unavailable\",\n        \"6th\": \"Unavailable\",\n        \"7th\": \"Unavailable\",\n        \"8th\": \"Unavailable\",\n        \"9th\": \"Unavailable\",\n        \"10th\": \"Unavailable\",\n        \"11th\": \"Unavailable\",\n        \"12th\": \"Unavailable\",\n        \"13th\": \"Unavailable\",\n        \"14th\": \"Available\",\n        \"15th\": \"Unavailable\",\n        \"16th\": \"Unavailable\",\n        \"17th\": \"Unavailable\",\n        \"18th\": \"Unavailable\",\n        \"19th\": \"Unavailable\",\n        \"20th\": \"Available\",\n        \"21st\": \"Unavailable\",\n        \"22nd\": \"Available\"\n    },\n    {\n        \"id\": \"pig\",\n        \"4th\": \"Available\",\n        \"5th\": \"Unavailable\",\n        \"6th\": \"Unavailable\",\n        \"7th\": \"Unavailable\",\n        \"8th\": \"Unavailable\",\n        \"9th\": \"Unavailable\",\n        \"10th\": \"Unavailable\",\n        \"11th\": \"Unavailable\",\n        \"12th\": \"Unavailable\",\n        \"13th\": \"Unavailable\",\n        \"14th\": \"Unavailable\",\n        \"15th\": \"Available\",\n        \"16th\": \"Unavailable\",\n        \"17th\": \"Unavailable\",\n        \"18th\": \"Unavailable\",\n        \"19th\": \"Unavailable\",\n        \"20th\": \"Unavailable\",\n        \"21st\": \"Available\",\n        \"22nd\": \"Available\"\n    },\n    {\n        \"id\": \"monkey\",\n        \"4th\": \"Unavailable\",\n        \"5th\": \"Unavailable\",\n        \"6th\": \"Unavailable\",\n        \"7th\": \"Unavailable\",\n        \"8th\": \"Available\",\n        \"9th\": \"Unavailable\",\n        \"10th\": \"Unavailable\",\n        \"11th\": \"Unavailable\",\n        \"12th\": \"Unavailable\",\n        \"13th\": \"Unavailable\",\n        \"14th\": \"Unavailable\",\n        \"15th\": \"Unavailable\",\n        \"16th\": \"Unavailable\",\n        \"17th\": \"Unavailable\",\n        \"18th\": \"Unavailable\",\n        \"19th\": \"Unavailable\",\n        \"20th\": \"Unavailable\",\n        \"21st\": \"Unavailable\",\n        \"22nd\": \"Available\"\n    }\n]\n"
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

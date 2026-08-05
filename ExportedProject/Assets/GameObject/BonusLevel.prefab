@@ -1,0 +1,334 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 114618682377417806}
+  - component: {fileID: 114703437598541787}
+  - component: {fileID: 114884547391421755}
+  - component: {fileID: 114099118695303065}
+  - component: {fileID: 114243736805655561}
+  - component: {fileID: 114061268324235159}
+  m_Layer: 0
+  m_Name: BonusLevel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409054382c13ee7d4e9126c1b58d3c2b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  seed: 0
+  m_mapsResources:
+  - m_path: Maps/World3/Lic
+    m_chance: 1
+  - m_path: Maps/World3/Mouth
+    m_chance: 1
+  - m_path: Maps/World3/Dot
+    m_chance: 1
+  - m_path: Maps/World3/Egg
+    m_chance: 1
+  - m_path: Maps/World3/Split
+    m_chance: 1
+  - m_path: Maps/World3/Facey
+    m_chance: 1
+  - m_path: Maps/World3/Bean
+    m_chance: 0.6
+  - m_path: Maps/World3/BeanRev
+    m_chance: 0.6
+  m_dynamicTiles:
+  - {fileID: 114061268324235159, guid: 334dbe93e262f7b4d9b5204fd64a975c, type: 2}
+  - {fileID: 114061268324235159, guid: 863fa687dfbb184468ea81afa57054c6, type: 2}
+  - {fileID: 114061268324235159, guid: 5bbaf96d403af09469bce11acda9dbb5, type: 2}
+  - {fileID: 114256069497284392, guid: 44ed51cacccec0849a2cd57465149d61, type: 2}
+  - {fileID: 114709867586078768, guid: 66135408a9aa41c469adc3a79d024f48, type: 2}
+  m_dynamicTilesValues:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0.6
+  m_sceneryDensity: 0.35
+  m_waterSceneryDensity: 0.45
+  m_cloudsPrefab: {fileID: 1709254077376921, guid: ded84d2edd9b4fd408fa29e9b816c8e4, type: 2}
+  m_spawnPos: {x: 0, y: 0, z: 0}
+  m_overrideTilesetGroup: {fileID: 114724804207875695, guid: 9b8929d579dff564fa6167c603418297, type: 2}
+  m_onLoadComplete:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_onUnloadComplete:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_objectOfDesire: coin
+  m_bonusObjectsOnComplete: 5
+  m_debugOptions:
+    layer0Visible: 1
+    layer1Visible: 1
+    layer2Visible: 1
+    showGridLayer0: 1
+    showGridLayer1: 0
+    showGridLayer2: 0
+    updateHidden: 1
+    reloadHidden: 1
+    nextHidden: 1
+    prevHidden: 1
+    m_usedSeeds:
+    m_seedIdx: 0
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd727e46fbe36968a91b90c858f8b20f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_group: Enemies
+  m_density: 1
+  m_densityPerkId:
+  m_landBased: 1
+  m_randomRotated: 1
+  m_rotateWithTile: 0
+  m_maxCurrencyCheck:
+  m_maxCurrencyAmount: 0
+  m_spawnCountOverridePerkID:
+  m_spawnChance:
+  - {fileID: 1709254077376921, guid: 7ea012536e008e64b8f49772e995c19c, type: 2}
+  - {fileID: 1709254077376921, guid: 0bb46d8a07cf1934c9905fefce187c52, type: 2}
+  - {fileID: 1709254077376921, guid: 386bf74f917c88849b576e4ade7d44ff, type: 2}
+  m_spawnChanceValues:
+  - 0.5
+  - 0.6
+  - 0.6
+  m_spawnCountOverride: 050000000600000007000000
+  m_spawnCountValues:
+  - 1
+  - 1
+  - 1
+--- !u!114 &114703437598541787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd727e46fbe36968a91b90c858f8b20f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_group: Objects
+  m_density: 1
+  m_densityPerkId:
+  m_landBased: 1
+  m_randomRotated: 0
+  m_rotateWithTile: 0
+  m_maxCurrencyCheck:
+  m_maxCurrencyAmount: 0
+  m_spawnCountOverridePerkID:
+  m_spawnChance:
+  - {fileID: 1709254077376921, guid: 808890dd57744e24fb41c0da8373ef40, type: 2}
+  m_spawnChanceValues:
+  - 1
+  m_spawnCountOverride: 01000000
+  m_spawnCountValues:
+  - 1
+--- !u!114 &114884547391421755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd727e46fbe36968a91b90c858f8b20f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_group: Coins
+  m_density: 0.5
+  m_densityPerkId:
+  m_landBased: 1
+  m_randomRotated: 0
+  m_rotateWithTile: 0
+  m_maxCurrencyCheck:
+  m_maxCurrencyAmount: 0
+  m_spawnCountOverridePerkID:
+  m_spawnChance:
+  - {fileID: 1709254077376921, guid: 77ee540a4f557ca4f89b0a90b2dae704, type: 2}
+  m_spawnChanceValues:
+  - 150
+  m_spawnCountOverride:
+  m_spawnCountValues:
+  - 1
+--- !u!114 &114099118695303065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd727e46fbe36968a91b90c858f8b20f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_group: Spikes
+  m_density: 0.3
+  m_densityPerkId:
+  m_landBased: 1
+  m_randomRotated: 0
+  m_rotateWithTile: 0
+  m_maxCurrencyCheck:
+  m_maxCurrencyAmount: 0
+  m_spawnCountOverridePerkID:
+  m_spawnChance:
+  - {fileID: 1709254077376921, guid: 1c20e064cf708ec4995a025ef5b1dadb, type: 2}
+  m_spawnChanceValues:
+  - 150
+  m_spawnCountOverride:
+  m_spawnCountValues:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+--- !u!114 &114243736805655561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd727e46fbe36968a91b90c858f8b20f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_group: Spider
+  m_density: 1
+  m_densityPerkId:
+  m_landBased: 1
+  m_randomRotated: 1
+  m_rotateWithTile: 0
+  m_maxCurrencyCheck:
+  m_maxCurrencyAmount: 0
+  m_spawnCountOverridePerkID:
+  m_spawnChance:
+  - {fileID: 1709254077376921, guid: 36fa7d8db154c524c924cd85069824c7, type: 2}
+  m_spawnChanceValues:
+  - 1
+  m_spawnCountOverride: 0000000001000000
+  m_spawnCountValues:
+  - 0.3
+  - 1
+--- !u!114 &114061268324235159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd91aa163d3487f90838ec55307e18e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_cloudRings:
+  - m_clouds:
+    - {fileID: 114703437598541787, guid: 52ed825ed4062cf4fb73034535f80501, type: 2}
+    - {fileID: 114703437598541787, guid: 7ffd9a9389a389f498da48e6585216d9, type: 2}
+    - {fileID: 114703437598541787, guid: 85fe38573cb827049aa90d669ca8dad0, type: 2}
+    m_angleSpacing:
+      m_min: 25
+      m_max: 35
+    m_distance:
+      m_min: 50
+      m_max: 60
+    m_height:
+      m_min: 20
+      m_max: 30
+    m_removeFront: 1
+  - m_clouds:
+    - {fileID: 114703437598541787, guid: 52ed825ed4062cf4fb73034535f80501, type: 2}
+    - {fileID: 114703437598541787, guid: 7ffd9a9389a389f498da48e6585216d9, type: 2}
+    - {fileID: 114703437598541787, guid: 85fe38573cb827049aa90d669ca8dad0, type: 2}
+    m_angleSpacing:
+      m_min: 15
+      m_max: 20
+    m_distance:
+      m_min: 10
+      m_max: 120
+    m_height:
+      m_min: -10
+      m_max: -80
+    m_removeFront: 0
+  - m_clouds:
+    - {fileID: 114703437598541787, guid: 6fd29c430f110f2438a4b77420ade1eb, type: 2}
+    - {fileID: 114703437598541787, guid: 92568a1c858aaf84586d5f6538e32eef, type: 2}
+    - {fileID: 114703437598541787, guid: a2dd83a5725971141874de6cb243df2d, type: 2}
+    m_angleSpacing:
+      m_min: 15
+      m_max: 20
+    m_distance:
+      m_min: 5
+      m_max: 170
+    m_height:
+      m_min: -50
+      m_max: -100
+    m_removeFront: 0
+  - m_clouds:
+    - {fileID: 114587765826080250, guid: f220f16a077054d40892fdca35e9af53, type: 2}
+    - {fileID: 114099118695303065, guid: d55e4d38a951ee94aae325026be3845a, type: 2}
+    - {fileID: 114099118695303065, guid: c7a9f6a22fc774c4ba24a4c7e8c044b1, type: 2}
+    - {fileID: 114709867586078768, guid: 687832f4a9cb2bc43b22864314e68258, type: 2}
+    - {fileID: 114099118695303065, guid: 46109ba774820274e9db5912adfc67a3, type: 2}
+    - {fileID: 114243736805655561, guid: bb780b915d631e54ca93f83fcf938d9d, type: 2}
+    m_angleSpacing:
+      m_min: 15
+      m_max: 25
+    m_distance:
+      m_min: 120
+      m_max: 170
+    m_height:
+      m_min: -55
+      m_max: -75
+    m_removeFront: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

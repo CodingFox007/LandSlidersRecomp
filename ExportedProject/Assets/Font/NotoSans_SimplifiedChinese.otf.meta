@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 34f3da691022fa944895a2555ace1835
+timeCreated: 1785419670
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  name:
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Noto Sans SC
+  fontNames:
+  - Noto Sans SC
+  - Dimbo
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 309c2f978a83ace4389ff8e15574f40d, type: 3}
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName:
+  assetBundleVariant:

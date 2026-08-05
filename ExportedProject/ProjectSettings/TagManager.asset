@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Walls
+  - Water
+  - Death
+  - Entity
+  - Tile
+  - GroundDirt
+  - GroundSnow
+  - WaterLava
+  - GroundAir
+  - GroundLava
+  - GroundTropical
+  - GroundHeaven
+  - Knockback
+  - Freeze
+  - DestroySelf
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Ground
+  - Walls
+  - TriggerBox
+  - GlobalProjectorLayer
+  - Pickup
+  - PickupMagnet
+  - Entity
+  - EntityClipPlayer
+  - EntityBlocker
+  - TriggerBoxPlayer
+  - UIParticlesFront
+  - Loading
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BehindGame
+    uniqueID: 3851528515
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 2103425463
+    locked: 0

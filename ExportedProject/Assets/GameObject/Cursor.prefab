@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 119724804207875695}
+  - component: {fileID: 114618682377417806}
+  m_Layer: 0
+  m_Name: Cursor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: -0.38122723, y: 0.08052109, z: -0.03335293, w: -0.9203639}
+  m_LocalPosition: {x: 8.5, y: 60, z: -50}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 45, y: 9.999961, z: -6.171782E-08}
+--- !u!119 &119724804207875695
+Projector:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 0
+  m_NearClipPlane: 0.1
+  m_FarClipPlane: 150
+  m_FieldOfView: 55.03
+  m_AspectRatio: 1
+  m_Orthographic: 1
+  m_OrthographicSize: 2
+  m_Material: {fileID: 2100000, guid: 1b1f5f5aeb53ca64f978ef173ee22132, type: 2}
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 4294965743
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e409096f321855370fad411326ddb736, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_effectPrefabs:
+  - Ground
+  - Water
+  - Air
+  - GroundDirt
+  - GroundSnow
+  - GroundAir
+  - GroundLava
+  - GroundTropical
+  - WaterLava
+  - GroundHeaven
+  m_effectsValues:
+  - {fileID: 1709254077376921, guid: 1456a1c1f60e4f84bad12e9a5b6c4377, type: 2}
+  - {fileID: 0}
+  - {fileID: 1709254077376921, guid: 6aafd6b3df8e1c94eaf3c51a8e6eec29, type: 2}
+  - {fileID: 1709254077376921, guid: 1456a1c1f60e4f84bad12e9a5b6c4377, type: 2}
+  - {fileID: 1709254077376921, guid: d5c5494b9e0f8a645ad5c232acb4c459, type: 2}
+  - {fileID: 1709254077376921, guid: 6aafd6b3df8e1c94eaf3c51a8e6eec29, type: 2}
+  - {fileID: 1709254077376921, guid: 5cea47e83d65f1444b54fd21d93f7ffb, type: 2}
+  - {fileID: 1709254077376921, guid: 1456a1c1f60e4f84bad12e9a5b6c4377, type: 2}
+  - {fileID: 1709254077376921, guid: aa4c85626a8f2cc47bde5f2981c5ca9b, type: 2}
+  - {fileID: 1709254077376921, guid: 0ecb15f7645a1434d88a9f9aecdc8d5a, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

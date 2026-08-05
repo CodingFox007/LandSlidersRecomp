@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: LavaTileSet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f25bf0cb197581af1e419ec939b518, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_tilesLow: 01000000020000000300000004000000050000000600000007000000
+  m_tilesLowValues:
+  - {fileID: 1709254077376921, guid: 013de0e8a9aa14f4693a434a453256b5, type: 2}
+  - {fileID: 1709254077376921, guid: 7ab64aa0e096c064eb86c40fd9167228, type: 2}
+  - {fileID: 1709254077376921, guid: cc4b1d468d47e634d9676c0f8792147d, type: 2}
+  - {fileID: 1709254077376921, guid: 4e9cd031456ca214cbef0c47f4cc5c34, type: 2}
+  - {fileID: 1709254077376921, guid: fbcf1ecb6520e924ebd324fb99e57e55, type: 2}
+  - {fileID: 1709254077376921, guid: 813c365ff4ed5c446a66e2dfd6153e7b, type: 2}
+  - {fileID: 1709254077376921, guid: 22c645d96b64cba4d96323a224cc5ca9, type: 2}
+  m_tilesMid: 01000000020000000300000004000000050000000600000007000000
+  m_tilesMidValues:
+  - {fileID: 1709254077376921, guid: a745834c2b06ef34e9b9b02241d0f538, type: 2}
+  - {fileID: 1709254077376921, guid: 4ff5c79e3c970f34eb38c59fc74376a7, type: 2}
+  - {fileID: 1709254077376921, guid: c942d62a861e9314b8b009c477eabdda, type: 2}
+  - {fileID: 1709254077376921, guid: b005348a6748ebe4ea409c1cf3f40876, type: 2}
+  - {fileID: 1709254077376921, guid: 88ec86834d1820f4fabf58d99964131a, type: 2}
+  - {fileID: 1709254077376921, guid: 40197d08a528ba8418b861ce2be72a9c, type: 2}
+  - {fileID: 1709254077376921, guid: 10d17d81b233f5e4ab63c531d4968eb5, type: 2}
+  m_tilesHigh: 01000000020000000300000004000000050000000600000007000000
+  m_tilesHighValues:
+  - {fileID: 1709254077376921, guid: 86c382e91dca9744fbd75accd4cd298e, type: 2}
+  - {fileID: 1709254077376921, guid: c0f9fda1f525e6a4699c21973eff0f10, type: 2}
+  - {fileID: 1709254077376921, guid: 38211784c34eaf84f8a4409037546cd0, type: 2}
+  - {fileID: 1709254077376921, guid: 9042028333aaaad47a803d28cc380071, type: 2}
+  - {fileID: 1709254077376921, guid: 16641fc17521c5243bb493d52e7a4d80, type: 2}
+  - {fileID: 1709254077376921, guid: 4a9f2bc94f310f441986476056d8cea1, type: 2}
+  - {fileID: 1709254077376921, guid: 71859eb48a985cc49999b0acca5a2249, type: 2}
+  m_walls:
+  - type: 1
+    walls:
+    - {fileID: 1709254077376921, guid: cf52d7c041f9adc4d964e6966b8a4fce, type: 2}
+    - {fileID: 1709254077376921, guid: 29bb04dbac293cb42a691ae49fc6c69d, type: 2}
+    - {fileID: 1709254077376921, guid: f4483ef5d58bd3f41814c380abc6b255, type: 2}
+    - {fileID: 1709254077376921, guid: 047928882fd8f154992affc7c85ad9c0, type: 2}
+    - {fileID: 1709254077376921, guid: 5d02c9fc82a4fed48bb140365fc42386, type: 2}
+    - {fileID: 1709254077376921, guid: ba3711b82dc4d0b42a7bf60950492a45, type: 2}
+    - {fileID: 1709254077376921, guid: 11010d9bc958c8243a80606ef22308e6, type: 2}
+  - type: 2
+    walls:
+    - {fileID: 1709254077376921, guid: fb7d08a995a3dff4289de91a35746045, type: 2}
+    - {fileID: 1709254077376921, guid: 314d6593f80d34041b6444085a99e2e6, type: 2}
+    - {fileID: 1709254077376921, guid: 9ed6d77594e84c1488a9b10346ae95bf, type: 2}
+  - type: 3
+    walls:
+    - {fileID: 1709254077376921, guid: 5b671adfabf41f844a5acf9abda206f5, type: 2}
+    - {fileID: 1709254077376921, guid: d6db80dbb679e2745898a2f27320f9db, type: 2}
+    - {fileID: 1709254077376921, guid: a02106f7877449e4d93795c9f9579ffe, type: 2}
+    - {fileID: 1709254077376921, guid: fdab48278d5d8cf4d92599dc1391a8a0, type: 2}
+  - type: 4
+    walls:
+    - {fileID: 1709254077376921, guid: 0392e5c3a0bb47342b57b6c5e63cdb5c, type: 2}
+    - {fileID: 1709254077376921, guid: a850ce4f4c4fad44c89513b223ccd5d8, type: 2}
+  - type: 5
+    walls:
+    - {fileID: 1709254077376921, guid: b1e799c7ca7b33c4e90f21cf4612fa8e, type: 2}
+    - {fileID: 1709254077376921, guid: 7d83b54c2b402c34a92e815d9d89d516, type: 2}
+  - type: 6
+    walls:
+    - {fileID: 1709254077376921, guid: a105836737e34f34a9b1ef7096af47ce, type: 2}
+    - {fileID: 1709254077376921, guid: 529d1b80a9cb3814ba688ad846eb46b9, type: 2}
+  - type: 7
+    walls:
+    - {fileID: 1709254077376921, guid: 090f9d59180b2bc4ea4c1ed00ef95a87, type: 2}
+  m_dynamicTileWall: {fileID: 1709254077376921, guid: f2cd74a179bee834983e5a4909c235e5, type: 2}
+  m_water:
+    waterTile: {fileID: 1709254077376921, guid: e3ed0c11e32f11f4586ee1a6477a6a62, type: 2}
+    waterQuater: {fileID: 1709254077376921, guid: e5df6a6dd37276145ad2056cbfec4bf7, type: 2}
+    waterHalf: {fileID: 1709254077376921, guid: 18827c09812337a49b6d360ff6a6383f, type: 2}
+    wakeIn: {fileID: 1709254077376921, guid: 6a046db253ca8ab41bc9547db8a4a4d4, type: 2}
+    wakeOut: {fileID: 1709254077376921, guid: 1f5d9a5ca8e012b44888c4cbd73cf019, type: 2}
+    wakeQuater: {fileID: 1709254077376921, guid: 87a6cbe14b7849045899ea1d3858d5d1, type: 2}
+    wakeHalf: {fileID: 1709254077376921, guid: 445bfee8b87797644adacee926c15236, type: 2}
+    wakeQuaterLeft: {fileID: 1709254077376921, guid: ffc17d211d7e3274baf582b7886b2dfd, type: 2}
+    wakeQuaterRight: {fileID: 1709254077376921, guid: 65b653dcb7e6acc4c96abd51413df162, type: 2}
+    wakeQuaterHalfLeft: {fileID: 1709254077376921, guid: 84b6c28c19b20fb45a29c5b3b5c3b381, type: 2}
+    wakeQuaterHalfRight: {fileID: 1709254077376921, guid: fdbae57ae4e0f3743bbdf91346cfe3c9, type: 2}
+    wakeHalfHalf: {fileID: 1709254077376921, guid: e01987adf18b42f41a89897eb42724c2, type: 2}
+    wakeHalfCorner: {fileID: 1709254077376921, guid: 8a2f66fe019aa89409705cce5978f0ed, type: 2}
+  m_scenerySpawnChance:
+  - {fileID: 1709254077376921, guid: a888de8eafac0314d8e0d28cd1fce09a, type: 2}
+  - {fileID: 1709254077376921, guid: c39301b2c407dfd4ca133de3573ea3ea, type: 2}
+  - {fileID: 1709254077376921, guid: 32ef1a051eaaae747903163acb0e3ce6, type: 2}
+  - {fileID: 1709254077376921, guid: e7107bea0b8e27d49b5328d4d3c55aa1, type: 2}
+  - {fileID: 1709254077376921, guid: 41da0fe851579bd4d948c8c1a736513a, type: 2}
+  - {fileID: 1709254077376921, guid: 40521a50bc48390439912584be3c3792, type: 2}
+  - {fileID: 1709254077376921, guid: 7581012a14e25fb44a607506bca2dc78, type: 2}
+  - {fileID: 1709254077376921, guid: 4abf7e0fdae776a459bc23e13d02d688, type: 2}
+  - {fileID: 1709254077376921, guid: 9d8a0eb4e32b4bf4bae304b8c09da276, type: 2}
+  - {fileID: 1709254077376921, guid: 9dd756e090b02064587390752697742b, type: 2}
+  - {fileID: 1709254077376921, guid: 1d813cdfb95ecfe4aae996346d9646bb, type: 2}
+  - {fileID: 1709254077376921, guid: 8b9feaffda0848b49813fcbbf597daee, type: 2}
+  - {fileID: 1709254077376921, guid: 71118c20ac869ec4293b647d88b45736, type: 2}
+  - {fileID: 1709254077376921, guid: 8798e0495fddb7d4daf135069f6840f2, type: 2}
+  - {fileID: 1709254077376921, guid: 5caf94ee7d3916347a6d3c301de7cc7d, type: 2}
+  - {fileID: 1709254077376921, guid: 130e9e7120583ea4eaf8390fbb8bbc83, type: 2}
+  - {fileID: 1709254077376921, guid: c3036299cf783634b9e2deb4d0bb5063, type: 2}
+  - {fileID: 1709254077376921, guid: 0d002ce2ec841d24f84770a8d8acdbac, type: 2}
+  - {fileID: 1709254077376921, guid: 2d58fd3292e053c42b7c093ee79d6bcf, type: 2}
+  - {fileID: 1709254077376921, guid: 81f8e7e1e68660449a401d721a2d1cf4, type: 2}
+  - {fileID: 1709254077376921, guid: 937493788becaf44f8c67c3f889485fb, type: 2}
+  - {fileID: 1709254077376921, guid: dda810f81dbfd054c8dd10d111dd2e1a, type: 2}
+  - {fileID: 1709254077376921, guid: 6c2f25721c0f5284a876833c02866586, type: 2}
+  - {fileID: 1709254077376921, guid: 9425dc5590938fa48abc429608fc769a, type: 2}
+  - {fileID: 1709254077376921, guid: dc0b72431b99eb546a5d58ebcf09ea21, type: 2}
+  - {fileID: 1709254077376921, guid: a4536c868c393494eb7fdd448906ddfb, type: 2}
+  - {fileID: 1709254077376921, guid: ec4f3a24d902c104fb9b9312d65aa2cb, type: 2}
+  - {fileID: 1709254077376921, guid: fec62161b63f60f4f94671b364c7bb55, type: 2}
+  - {fileID: 1709254077376921, guid: 22bf26f3f9fd054448a2690c9180715f, type: 2}
+  - {fileID: 1709254077376921, guid: 41929cca20b32914fba869bd32187876, type: 2}
+  - {fileID: 1709254077376921, guid: 7a49ab5a9fb74a749a149b3dcbc07ae3, type: 2}
+  - {fileID: 1709254077376921, guid: f698d434c827d554492f1fa043c7cd22, type: 2}
+  - {fileID: 1709254077376921, guid: 09e9a9a58b839c045a73ffcb76391b18, type: 2}
+  - {fileID: 1709254077376921, guid: 8176720eea3bc15458ba2500c5bceb8d, type: 2}
+  - {fileID: 1709254077376921, guid: 12673369a6eca04448172881754a6a7f, type: 2}
+  - {fileID: 1709254077376921, guid: f4aa91c6659a08642a1537b83a4602d1, type: 2}
+  - {fileID: 1709254077376921, guid: a9883546c89bc224c8e5cfd796dd6918, type: 2}
+  - {fileID: 1709254077376921, guid: 5ae92c5bf2210e147b62f6fc3b28c25e, type: 2}
+  m_scenerySpawnChanceValues:
+  - 0.8
+  - 0.8
+  - 0.8
+  - 0.8
+  - 0.6
+  - 0.2
+  - 0.5
+  - 0.5
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0.8
+  - 0.8
+  - 0.8
+  - 0.3
+  - 0.15
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.4
+  - 0.4
+  - 0.4
+  - 0.2
+  - 0.2
+  - 0.8
+  - 0.8
+  - 0.8
+  - 0.8
+  - 0.8
+  - 0.8
+  - 0.8
+  - 0.8
+  - 0.8
+  - 0.8
+  - 0.8
+  - 0.8
+  - 0.6
+  m_waterScenerySpawnChance:
+  - {fileID: 1709254077376921, guid: c230a64816977fa41ba7940c04363b8d, type: 2}
+  - {fileID: 1709254077376921, guid: 993b7e49caed326418912cd458a9e6bc, type: 2}
+  m_waterScenerySpawnChanceValues:
+  - 1
+  - 0.8
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

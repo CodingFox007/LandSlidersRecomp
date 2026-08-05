@@ -1,0 +1,695 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 114618682377417806}
+  - component: {fileID: 114703437598541787}
+  - component: {fileID: 114884547391421755}
+  - component: {fileID: 114099118695303065}
+  - component: {fileID: 114243736805655561}
+  - component: {fileID: 114061268324235159}
+  - component: {fileID: 114587765826080250}
+  - component: {fileID: 114709867586078768}
+  - component: {fileID: 114044625135789424}
+  - component: {fileID: 114589667821646929}
+  - component: {fileID: 114372920208702427}
+  - component: {fileID: 114025901758691103}
+  - component: {fileID: 114985305603660343}
+  - component: {fileID: 114705390221481576}
+  m_Layer: 0
+  m_Name: Level8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409054382c13ee7d4e9126c1b58d3c2b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  seed: 0
+  m_mapsResources:
+  - m_path: Maps/World1/New/Axe
+    m_chance: 1
+  - m_path: Maps/World1/New/Circle-Canyons
+    m_chance: 0.5
+  - m_path: Maps/World1/New/Circle-Lakes
+    m_chance: 0.5
+  - m_path: Maps/World1/New/Hooper
+    m_chance: 1
+  - m_path: Maps/World1/New/Horseshoe2
+    m_chance: 1
+  - m_path: Maps/World1/New/Junction
+    m_chance: 1
+  - m_path: Maps/World1/New/Mondrian
+    m_chance: 1
+  - m_path: Maps/World1/New/Point
+    m_chance: 1
+  - m_path: Maps/World1/New/Ridge
+    m_chance: 1
+  - m_path: Maps/World1/New/Squares
+    m_chance: 1
+  - m_path: Maps/World1/Amsterdam
+    m_chance: 0.1
+  - m_path: Maps/World1/Peanut
+    m_chance: 0.1
+  - m_path: Maps/World1/Stumps
+    m_chance: 0.1
+  - m_path: Maps/World1/TheLine
+    m_chance: 0.1
+  - m_path: Maps/World1/TheN
+    m_chance: 0.1
+  - m_path: Maps/World2/3levelN
+    m_chance: 0.1
+  - m_path: Maps/World2/3LevelTrick
+    m_chance: 0.2
+  - m_path: Maps/World2/3LevelNoise
+    m_chance: 1
+  - m_path: Maps/World2/Steps
+    m_chance: 1
+  - m_path: Maps/World3/3StepBlockOut
+    m_chance: 1
+  - m_path: Maps/World3/Estreme
+    m_chance: 1
+  - m_path: Maps/World3/Lic
+    m_chance: 1
+  - m_path: Maps/World3/Mouth
+    m_chance: 1
+  - m_path: Maps/World3/Dot
+    m_chance: 1
+  - m_path: Maps/World3/Egg
+    m_chance: 1
+  - m_path: Maps/World3/Split
+    m_chance: 1
+  - m_path: Maps/World3/Facey
+    m_chance: 1
+  - m_path: Maps/World3/Bean
+    m_chance: 0.6
+  - m_path: Maps/World3/BeanRev
+    m_chance: 0.6
+  m_dynamicTiles:
+  - {fileID: 114061268324235159, guid: 334dbe93e262f7b4d9b5204fd64a975c, type: 2}
+  - {fileID: 114061268324235159, guid: 863fa687dfbb184468ea81afa57054c6, type: 2}
+  - {fileID: 114061268324235159, guid: 5bbaf96d403af09469bce11acda9dbb5, type: 2}
+  - {fileID: 114256069497284392, guid: 44ed51cacccec0849a2cd57465149d61, type: 2}
+  - {fileID: 114709867586078768, guid: 66135408a9aa41c469adc3a79d024f48, type: 2}
+  m_dynamicTilesValues:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0.6
+  m_sceneryDensity: 0.32
+  m_waterSceneryDensity: 0.45
+  m_cloudsPrefab: {fileID: 1709254077376921, guid: ded84d2edd9b4fd408fa29e9b816c8e4, type: 2}
+  m_spawnPos: {x: 0, y: 0, z: 0}
+  m_overrideTilesetGroup: {fileID: 0}
+  m_onLoadComplete:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_onUnloadComplete:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_objectOfDesire: collectible
+  m_bonusObjectsOnComplete: 5
+  m_debugOptions:
+    layer0Visible: 1
+    layer1Visible: 1
+    layer2Visible: 1
+    showGridLayer0: 1
+    showGridLayer1: 0
+    showGridLayer2: 0
+    updateHidden: 1
+    reloadHidden: 1
+    nextHidden: 1
+    prevHidden: 1
+    m_usedSeeds:
+    m_seedIdx: 0
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd727e46fbe36968a91b90c858f8b20f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_group: Pickups
+  m_density: 0.16
+  m_densityPerkId:
+  m_landBased: 1
+  m_randomRotated: 0
+  m_rotateWithTile: 0
+  m_maxCurrencyCheck:
+  m_maxCurrencyAmount: 0
+  m_spawnCountOverridePerkID:
+  m_spawnChance:
+  - {fileID: 1709254077376921, guid: c97b661b4e44c4b4b8b7840e61ed25ec, type: 2}
+  m_spawnChanceValues:
+  - 150
+  m_spawnCountOverride:
+  m_spawnCountValues: []
+--- !u!114 &114703437598541787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd727e46fbe36968a91b90c858f8b20f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_group: Enemies
+  m_density: 1
+  m_densityPerkId:
+  m_landBased: 1
+  m_randomRotated: 1
+  m_rotateWithTile: 0
+  m_maxCurrencyCheck:
+  m_maxCurrencyAmount: 0
+  m_spawnCountOverridePerkID:
+  m_spawnChance:
+  - {fileID: 1709254077376921, guid: cfe9ef5759c4c1346b94893c2655a87e, type: 2}
+  - {fileID: 1709254077376921, guid: 7ea012536e008e64b8f49772e995c19c, type: 2}
+  - {fileID: 1709254077376921, guid: 0bb46d8a07cf1934c9905fefce187c52, type: 2}
+  - {fileID: 1709254077376921, guid: 2a8478abf508627459e8b8364927f093, type: 2}
+  - {fileID: 1709254077376921, guid: 386bf74f917c88849b576e4ade7d44ff, type: 2}
+  - {fileID: 1709254077376921, guid: 055b08d677caf014bbeeeac3ee45f57c, type: 2}
+  m_spawnChanceValues:
+  - 0.2
+  - 0.9
+  - 1
+  - 0.3
+  - 0.2
+  - 0.3
+  m_spawnCountOverride: 000000000400000005000000080000000a0000000c000000
+  m_spawnCountValues:
+  - 0.1
+  - 1
+  - 2
+  - 2
+  - 1
+  - 1
+--- !u!114 &114884547391421755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd727e46fbe36968a91b90c858f8b20f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_group: Objects
+  m_density: 0.5
+  m_densityPerkId: Less Cages
+  m_landBased: 1
+  m_randomRotated: 0
+  m_rotateWithTile: 0
+  m_maxCurrencyCheck:
+  m_maxCurrencyAmount: 0
+  m_spawnCountOverridePerkID:
+  m_spawnChance:
+  - {fileID: 1709254077376921, guid: 808890dd57744e24fb41c0da8373ef40, type: 2}
+  m_spawnChanceValues:
+  - 1
+  m_spawnCountOverride: 01000000
+  m_spawnCountValues:
+  - 1
+--- !u!114 &114099118695303065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd727e46fbe36968a91b90c858f8b20f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_group: Coins
+  m_density: 1
+  m_densityPerkId:
+  m_landBased: 1
+  m_randomRotated: 0
+  m_rotateWithTile: 0
+  m_maxCurrencyCheck:
+  m_maxCurrencyAmount: 0
+  m_spawnCountOverridePerkID:
+  m_spawnChance:
+  - {fileID: 1709254077376921, guid: 77ee540a4f557ca4f89b0a90b2dae704, type: 2}
+  m_spawnChanceValues:
+  - 150
+  m_spawnCountOverride: 0000000001000000020000000300000005000000
+  m_spawnCountValues:
+  - 8
+  - 10
+  - 2
+  - 1
+  - 0.2
+--- !u!114 &114243736805655561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd727e46fbe36968a91b90c858f8b20f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_group: Spikes
+  m_density: 0.1
+  m_densityPerkId:
+  m_landBased: 1
+  m_randomRotated: 0
+  m_rotateWithTile: 0
+  m_maxCurrencyCheck:
+  m_maxCurrencyAmount: 0
+  m_spawnCountOverridePerkID:
+  m_spawnChance:
+  - {fileID: 1709254077376921, guid: 1c20e064cf708ec4995a025ef5b1dadb, type: 2}
+  m_spawnChanceValues:
+  - 150
+  m_spawnCountOverride:
+  m_spawnCountValues:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+--- !u!114 &114061268324235159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd727e46fbe36968a91b90c858f8b20f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_group: SetPieces
+  m_density: 1
+  m_densityPerkId:
+  m_landBased: 1
+  m_randomRotated: 0
+  m_rotateWithTile: 0
+  m_maxCurrencyCheck:
+  m_maxCurrencyAmount: 0
+  m_spawnCountOverridePerkID:
+  m_spawnChance:
+  - {fileID: 1709254077376921, guid: b8b1e917b6d947446801b43d6e6c5885, type: 2}
+  - {fileID: 1709254077376921, guid: 393f935c1da059c449b7e4c045e6545a, type: 2}
+  - {fileID: 1709254077376921, guid: cc82b2ba9e8331f4da407c940150c835, type: 2}
+  - {fileID: 1709254077376921, guid: eef11b34587dda04fae4da20cfac0fb2, type: 2}
+  - {fileID: 1709254077376921, guid: 6706b01072e0add488b90c3d6c3b70b8, type: 2}
+  - {fileID: 1709254077376921, guid: e482e0820ef63e7458d35b9f7148ebcd, type: 2}
+  - {fileID: 1709254077376921, guid: 13c3a1f6b6731be45985ca99736fa6ab, type: 2}
+  - {fileID: 1709254077376921, guid: 36c0ee20ce85c0b4ba42b1de9e55610c, type: 2}
+  - {fileID: 1709254077376921, guid: 8c665a7985751c84aa1d9f907c71d37c, type: 2}
+  - {fileID: 1709254077376921, guid: 7e79ebe2a402860408f5ccc0853ecc36, type: 2}
+  - {fileID: 1709254077376921, guid: e55a34f485818354a856c618b57ef9a7, type: 2}
+  - {fileID: 1709254077376921, guid: b80e693496670a24f92a8d211e958bd1, type: 2}
+  - {fileID: 1709254077376921, guid: a8007585a01b430408c05bacb3f149fe, type: 2}
+  - {fileID: 1709254077376921, guid: 788c47ca2e9c1c344abc6cddfeeb4cfd, type: 2}
+  - {fileID: 1709254077376921, guid: 5d62a8ef6984bef499211c49fb27fc5a, type: 2}
+  - {fileID: 1709254077376921, guid: 04cad794cc8ea134891e952284dc24c6, type: 2}
+  - {fileID: 1709254077376921, guid: bf6458437dfef1142ac8d32bb84ae452, type: 2}
+  - {fileID: 1709254077376921, guid: 8dbd09ac923345f45802597475b2e0b4, type: 2}
+  - {fileID: 1709254077376921, guid: 1f89bd1b1b5d4fc4e9db3bc6cff1c589, type: 2}
+  - {fileID: 1709254077376921, guid: 9bdce17e5beb878488cf0a30f31cf1da, type: 2}
+  - {fileID: 1709254077376921, guid: ca558ca4c68cda44cb4ae398d29ab042, type: 2}
+  - {fileID: 1709254077376921, guid: 7645c5686db235b4e876403382dfee64, type: 2}
+  - {fileID: 1709254077376921, guid: 656da707d21ce344ea6b6e1a4f519c2c, type: 2}
+  - {fileID: 1709254077376921, guid: 32e9f9b42c7646e4f823f50bd476afc6, type: 2}
+  - {fileID: 1709254077376921, guid: 8702a233fbca74c408cca92ba85d8ad5, type: 2}
+  - {fileID: 1709254077376921, guid: 987e1eb31345e91448544de26ba41f01, type: 2}
+  - {fileID: 1709254077376921, guid: a37b65da85c050347bced4f96ba90a65, type: 2}
+  - {fileID: 1709254077376921, guid: 4064f84e8e5b22b4d9251f88bc734130, type: 2}
+  - {fileID: 1709254077376921, guid: b886fa72cfd7dfd44a532c97d5105c2a, type: 2}
+  - {fileID: 1709254077376921, guid: 5bf57c45d24b48e4d8664cc3eb214a96, type: 2}
+  - {fileID: 1709254077376921, guid: dd8bfd9ccc0a5f64f89c18c5ba31d21e, type: 2}
+  - {fileID: 1709254077376921, guid: 44dc0ec1b9c217245b1d573d287241c9, type: 2}
+  - {fileID: 1709254077376921, guid: 30ba0854c93c24841819b6e89f49b04f, type: 2}
+  - {fileID: 1709254077376921, guid: 1ef31502209863c4c812605cc60954e5, type: 2}
+  - {fileID: 1709254077376921, guid: 1c521b82b2236f74da5ed805f6f4ca3c, type: 2}
+  - {fileID: 1709254077376921, guid: f99d0b021a72638449e9168491de2b40, type: 2}
+  - {fileID: 1709254077376921, guid: ec29f5bff83f62b4b8fa9437aa4b3899, type: 2}
+  - {fileID: 1709254077376921, guid: d6aacaa0d85918e49959db1853755463, type: 2}
+  m_spawnChanceValues:
+  - 1
+  - 1
+  - 2
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0.1
+  - 0.1
+  - 1
+  - 2
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  m_spawnCountOverride: 0000000001000000
+  m_spawnCountValues:
+  - 0.5
+  - 1
+--- !u!114 &114587765826080250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd727e46fbe36968a91b90c858f8b20f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_group: Powerups
+  m_density: 1
+  m_densityPerkId:
+  m_landBased: 1
+  m_randomRotated: 0
+  m_rotateWithTile: 0
+  m_maxCurrencyCheck:
+  m_maxCurrencyAmount: 0
+  m_spawnCountOverridePerkID: Hot Sauce Chance
+  m_spawnChance:
+  - {fileID: 1709254077376921, guid: 861f1664335ebe740a7dacf28a1064e0, type: 2}
+  m_spawnChanceValues:
+  - 150
+  m_spawnCountOverride: 0000000001000000
+  m_spawnCountValues:
+  - 7
+  - 1
+--- !u!114 &114709867586078768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd727e46fbe36968a91b90c858f8b20f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_group: Rabbits
+  m_density: 1
+  m_densityPerkId:
+  m_landBased: 1
+  m_randomRotated: 1
+  m_rotateWithTile: 0
+  m_maxCurrencyCheck:
+  m_maxCurrencyAmount: 0
+  m_spawnCountOverridePerkID: Rabbit Chance
+  m_spawnChance:
+  - {fileID: 1709254077376921, guid: 97c74342cb18f4249aa217c6dedc6e51, type: 2}
+  - {fileID: 1709254077376921, guid: 5b96593b859e41f4295cefbc0dc149a8, type: 2}
+  m_spawnChanceValues:
+  - 1
+  - 2
+  m_spawnCountOverride: 0000000001000000
+  m_spawnCountValues:
+  - 2
+  - 1
+--- !u!114 &114044625135789424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd727e46fbe36968a91b90c858f8b20f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_group: Spider
+  m_density: 1
+  m_densityPerkId:
+  m_landBased: 1
+  m_randomRotated: 1
+  m_rotateWithTile: 0
+  m_maxCurrencyCheck:
+  m_maxCurrencyAmount: 0
+  m_spawnCountOverridePerkID:
+  m_spawnChance:
+  - {fileID: 1709254077376921, guid: 36fa7d8db154c524c924cd85069824c7, type: 2}
+  - {fileID: 1709254077376921, guid: f744e2c80b41bd5409bdca64d16a46dd, type: 2}
+  m_spawnChanceValues:
+  - 1
+  - 1
+  m_spawnCountOverride: 0000000001000000
+  m_spawnCountValues:
+  - 2
+  - 1
+--- !u!114 &114589667821646929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd91aa163d3487f90838ec55307e18e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_cloudRings:
+  - m_clouds:
+    - {fileID: 114703437598541787, guid: 52ed825ed4062cf4fb73034535f80501, type: 2}
+    - {fileID: 114703437598541787, guid: 7ffd9a9389a389f498da48e6585216d9, type: 2}
+    - {fileID: 114703437598541787, guid: 85fe38573cb827049aa90d669ca8dad0, type: 2}
+    m_angleSpacing:
+      m_min: 25
+      m_max: 35
+    m_distance:
+      m_min: 50
+      m_max: 60
+    m_height:
+      m_min: 20
+      m_max: 30
+    m_removeFront: 1
+  - m_clouds:
+    - {fileID: 114703437598541787, guid: 52ed825ed4062cf4fb73034535f80501, type: 2}
+    - {fileID: 114703437598541787, guid: 7ffd9a9389a389f498da48e6585216d9, type: 2}
+    - {fileID: 114703437598541787, guid: 85fe38573cb827049aa90d669ca8dad0, type: 2}
+    m_angleSpacing:
+      m_min: 15
+      m_max: 20
+    m_distance:
+      m_min: 10
+      m_max: 120
+    m_height:
+      m_min: -10
+      m_max: -80
+    m_removeFront: 0
+  - m_clouds:
+    - {fileID: 114703437598541787, guid: 6fd29c430f110f2438a4b77420ade1eb, type: 2}
+    - {fileID: 114703437598541787, guid: 92568a1c858aaf84586d5f6538e32eef, type: 2}
+    - {fileID: 114703437598541787, guid: a2dd83a5725971141874de6cb243df2d, type: 2}
+    m_angleSpacing:
+      m_min: 15
+      m_max: 20
+    m_distance:
+      m_min: 5
+      m_max: 170
+    m_height:
+      m_min: -50
+      m_max: -100
+    m_removeFront: 0
+  - m_clouds:
+    - {fileID: 114587765826080250, guid: f220f16a077054d40892fdca35e9af53, type: 2}
+    - {fileID: 114099118695303065, guid: d55e4d38a951ee94aae325026be3845a, type: 2}
+    - {fileID: 114099118695303065, guid: c7a9f6a22fc774c4ba24a4c7e8c044b1, type: 2}
+    - {fileID: 114709867586078768, guid: 687832f4a9cb2bc43b22864314e68258, type: 2}
+    - {fileID: 114099118695303065, guid: 46109ba774820274e9db5912adfc67a3, type: 2}
+    - {fileID: 114243736805655561, guid: bb780b915d631e54ca93f83fcf938d9d, type: 2}
+    m_angleSpacing:
+      m_min: 15
+      m_max: 25
+    m_distance:
+      m_min: 120
+      m_max: 170
+    m_height:
+      m_min: -55
+      m_max: -75
+    m_removeFront: 0
+--- !u!114 &114372920208702427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd727e46fbe36968a91b90c858f8b20f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_group: Extras
+  m_density: 1
+  m_densityPerkId:
+  m_landBased: 1
+  m_randomRotated: 0
+  m_rotateWithTile: 0
+  m_maxCurrencyCheck: jackolantern
+  m_maxCurrencyAmount: 50
+  m_spawnCountOverridePerkID:
+  m_spawnChance:
+  - {fileID: 1709254077376921, guid: ca8a070eb77e19743aa1045829ad6d37, type: 2}
+  m_spawnChanceValues:
+  - 1
+  m_spawnCountOverride: 01000000
+  m_spawnCountValues:
+  - 1
+--- !u!114 &114025901758691103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd727e46fbe36968a91b90c858f8b20f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_group: Extras
+  m_density: 1
+  m_densityPerkId:
+  m_landBased: 1
+  m_randomRotated: 0
+  m_rotateWithTile: 0
+  m_maxCurrencyCheck: redenvelope
+  m_maxCurrencyAmount: 50
+  m_spawnCountOverridePerkID:
+  m_spawnChance:
+  - {fileID: 1709254077376921, guid: a4a5aef714dca284398613cdf31ab04a, type: 2}
+  m_spawnChanceValues:
+  - 1
+  m_spawnCountOverride: 01000000
+  m_spawnCountValues:
+  - 1
+--- !u!114 &114985305603660343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd727e46fbe36968a91b90c858f8b20f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_group: Monkey
+  m_density: 1
+  m_densityPerkId:
+  m_landBased: 1
+  m_randomRotated: 1
+  m_rotateWithTile: 0
+  m_maxCurrencyCheck:
+  m_maxCurrencyAmount: 0
+  m_spawnCountOverridePerkID:
+  m_spawnChance:
+  - {fileID: 1709254077376921, guid: 5389cb269e0e7774988c8be17fd36f90, type: 2}
+  m_spawnChanceValues:
+  - 1
+  m_spawnCountOverride: 0000000001000000
+  m_spawnCountValues:
+  - 1
+  - 1
+--- !u!114 &114705390221481576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd727e46fbe36968a91b90c858f8b20f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_group: Extras
+  m_density: 1
+  m_densityPerkId:
+  m_landBased: 1
+  m_randomRotated: 0
+  m_rotateWithTile: 0
+  m_maxCurrencyCheck: easteregg
+  m_maxCurrencyAmount: 50
+  m_spawnCountOverridePerkID:
+  m_spawnChance:
+  - {fileID: 1709254077376921, guid: 3994e73e3a2c52243a742fc2dc63f966, type: 2}
+  m_spawnChanceValues:
+  - 1
+  m_spawnCountOverride: 0000000001000000
+  m_spawnCountValues:
+  - 1
+  - 1
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

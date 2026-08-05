@@ -1,0 +1,330 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: PerkManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.518843, y: 32.347713, z: -81.040825}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea8f6749202a33acc3a970ff6900eb74, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_perks:
+  - m_ID: Bonus Maps On Collect All
+    m_text1: Perks/+{0}
+    m_image: {fileID: 21300000, guid: 7884da257a0b7544eb96cca1266a327a, type: 2}
+    m_text2: Perks/found all bonus
+    m_amountPerLevel: 1
+    m_visualAmountPerLevel: 1
+    m_isPercentage: 0
+    m_usePickupForImage: 1
+    m_characters:
+    - turny
+    - mermaid
+    - wren
+    - toilet
+    - stickman
+    - hugh
+    - frostyDreamworks
+    - cactus
+  - m_ID: Hot Sauce Time
+    m_text1: Perks/+{0} seconds
+    m_image: {fileID: 21300000, guid: 3d405d771b9245448be71499dc67e8e5, type: 2}
+    m_text2:
+    m_amountPerLevel: 1
+    m_visualAmountPerLevel: 1
+    m_isPercentage: 0
+    m_usePickupForImage: 0
+    m_characters:
+    - pirate
+    - dog
+    - taxi
+    - glitch
+    - baz
+    - szevvy
+    - liondancers
+  - m_ID: Freeze Time
+    m_text1: Perks/-{0}% freeze time
+    m_image: {fileID: 0}
+    m_text2:
+    m_amountPerLevel: -15
+    m_visualAmountPerLevel: -15
+    m_isPercentage: 1
+    m_usePickupForImage: 0
+    m_characters:
+    - oldTimey
+    - panda
+    - koala
+    - prettygrater
+    - reindeer
+    - cowgirl
+  - m_ID: Coins Quests
+    m_text1: Perks/+{0}% coins from quests
+    m_image: {fileID: 0}
+    m_text2:
+    m_amountPerLevel: 20
+    m_visualAmountPerLevel: 20
+    m_isPercentage: 1
+    m_usePickupForImage: 0
+    m_characters:
+    - toothfairy
+    - giraffe
+    - reynold
+    - crossy
+    - nutcracker
+    - billionaire
+    - lordfarquaad
+  - m_ID: Hover Time
+    m_text1: Perks/+{0} seconds hover time
+    m_image: {fileID: 0}
+    m_text2:
+    m_amountPerLevel: 0.225
+    m_visualAmountPerLevel: 0.2
+    m_isPercentage: 0
+    m_usePickupForImage: 0
+    m_characters:
+    - umbrella
+    - astronaut
+    - bowlingball
+    - cloud
+    - ufo
+    - goat
+    - helicopter
+    - donkey
+    - shrekdragon
+  - m_ID: Enemy Speed
+    m_text1: Perks/-{0}% enemy speed
+    m_image: {fileID: 0}
+    m_text2:
+    m_amountPerLevel: -4.5
+    m_visualAmountPerLevel: -5
+    m_isPercentage: 1
+    m_usePickupForImage: 0
+    m_characters:
+    - vampire
+    - lion
+    - toaster
+    - emailApp
+    - jet
+    - pianoman
+  - m_ID: Spike Size
+    m_text1: Perks/-{0}% spike size
+    m_image: {fileID: 0}
+    m_text2:
+    m_amountPerLevel: -6
+    m_visualAmountPerLevel: -5
+    m_isPercentage: 1
+    m_usePickupForImage: 0
+    m_characters:
+    - turkey
+    - 8bitTurny
+    - joystick
+    - santa
+    - sled
+    - knight
+    - beachball
+  - m_ID: Magnetic Range
+    m_text1: Perks/+{0}% collect magnet size
+    m_image: {fileID: 0}
+    m_text2:
+    m_amountPerLevel: 12
+    m_visualAmountPerLevel: 10
+    m_isPercentage: 1
+    m_usePickupForImage: 0
+    m_characters:
+    - catLady
+    - lazycat
+    - blackhole
+    - tornado
+    - MrsClaus
+    - monkey
+    - seal
+    - showgirl
+  - m_ID: Bear Speed
+    m_text1: Perks/-{0}% Bear speed
+    m_image: {fileID: 0}
+    m_text2:
+    m_amountPerLevel: -9
+    m_visualAmountPerLevel: -10
+    m_isPercentage: 1
+    m_usePickupForImage: 0
+    m_characters:
+    - anime
+    - shark
+    - fridge
+    - carbonrod
+    - senorita
+    - jellyfish
+    - threeblindmice
+  - m_ID: Pogosaur Speed
+    m_text1: Perks/-{0}% Pogosaur speed
+    m_image: {fileID: 0}
+    m_text2:
+    m_amountPerLevel: -25
+    m_visualAmountPerLevel: -10
+    m_isPercentage: 1
+    m_usePickupForImage: 0
+    m_characters:
+    - witch
+    - elephant
+    - lightbulb
+    - abstract
+    - mummy
+    - shrek_pinocchio
+    - pussinboots
+  - m_ID: Snowball Speed
+    m_text1: Perks/-{0}% Snowball speed
+    m_image: {fileID: 0}
+    m_text2:
+    m_amountPerLevel: -15
+    m_visualAmountPerLevel: -15
+    m_isPercentage: 1
+    m_usePickupForImage: 0
+    m_characters:
+    - partyguy
+    - penguin
+    - igc
+    - wacky
+    - frosty
+    - pig
+    - fiona
+    - tumbleweed
+  - m_ID: Rabbit Chance
+    m_text1: Perks/+{0}% chance of rabbits
+    m_image: {fileID: 0}
+    m_text2:
+    m_amountPerLevel: 100
+    m_visualAmountPerLevel: 15
+    m_isPercentage: 1
+    m_usePickupForImage: 0
+    m_characters:
+    - ballerina
+    - contractor
+    - phil
+    - dreidel
+    - rabbit
+    - horse
+    - rabbitonesie
+    - summergirl
+  - m_ID: Hot Sauce Chance
+    m_text1: Perks/+{0}% chance of
+    m_image: {fileID: 21300000, guid: 3d405d771b9245448be71499dc67e8e5, type: 2}
+    m_text2:
+    m_amountPerLevel: 10
+    m_visualAmountPerLevel: 5
+    m_isPercentage: 1
+    m_usePickupForImage: 0
+    m_characters:
+    - jrpg
+    - dryer
+    - match
+    - gingerbread
+    - rooster
+    - dragon
+    - gingy
+    - summerguy
+  - m_ID: Small Enemies
+    m_text1: Perks/+{0}% smaller enemies
+    m_image: {fileID: 0}
+    m_text2:
+    m_amountPerLevel: -3.8
+    m_visualAmountPerLevel: -5
+    m_isPercentage: 1
+    m_usePickupForImage: 0
+    m_characters:
+    - tinyPrincess
+    - quarterback
+    - elf
+    - cnydog
+    - rat
+    - basketballer
+    - chicken
+  - m_ID: Enemy Alert
+    m_text1: Perks/-{0}% enemy alert range
+    m_image: {fileID: 0}
+    m_text2:
+    m_amountPerLevel: -6
+    m_visualAmountPerLevel: -5
+    m_isPercentage: 1
+    m_usePickupForImage: 0
+    m_characters:
+    - zombie
+    - ninja
+    - treeCostume
+    - krampus
+    - tiger
+    - shrek
+  - m_ID: Collect Kill
+    m_text1: Perks/+{0}
+    m_image: {fileID: 21300000, guid: 7884da257a0b7544eb96cca1266a327a, type: 2}
+    m_text2: Perks/per hotsauce kill
+    m_amountPerLevel: 1
+    m_visualAmountPerLevel: 1
+    m_isPercentage: 0
+    m_usePickupForImage: 1
+    m_characters:
+    - angel
+    - coffee
+    - luke
+    - snake
+    - triceratops
+    - bigbadwolf
+    - outlaw
+  - m_ID: Less Cages
+    m_text1: Perks/-{0}% chance of cages
+    m_image: {fileID: 0}
+    m_text2:
+    m_amountPerLevel: -20
+    m_visualAmountPerLevel: -20
+    m_isPercentage: 1
+    m_usePickupForImage: 0
+    m_characters:
+    - police
+    - cookie
+    - presentCostume
+    - ox
+    - chocolaterabbit
+    - longhorn
+    - sheriff
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

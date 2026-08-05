@@ -1,0 +1,330 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: SocialManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.5839548, y: 2.152298, z: 7.339749}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15ea482b7d61211f0bfcb52d1aa59165, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_leaderboards:
+  - m_id: com.prettygreat.landsliders.highscore
+    m_androidId: CgkItt3YhoUPEAIQEg
+    m_stat: Stats.collectible.Life.Highest
+  - m_id: com.prettygreat.landsliders.totalscore
+    m_androidId: CgkItt3YhoUPEAIQEw
+    m_stat: Stats.collectible.Total.Current
+  m_achievements:
+  - m_id: WalkOnWater
+    m_gameCenterId: com.prettygreat.landsliders.walkonwater
+    m_androidId: CgkItt3YhoUPEAIQAQ
+    m_checks:
+    - m_paramater: StatsTimer.PlayerOverWater.Total.Current
+      m_condition: 3
+      m_target: 30
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 0
+    m_progress:
+      m_paramater: StatsTimer.PlayerOverWater.Total.Current
+      m_target: 30
+      m_startValue: 0
+  - m_id: NoAlert
+    m_gameCenterId: com.prettygreat.landsliders.noAlert
+    m_androidId: CgkItt3YhoUPEAIQAg
+    m_checks:
+    - m_paramater: Stats.EnemyAlerted.Life.Current
+      m_condition: 4
+      m_target: 0
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 2
+    - m_paramater: Levels.CurrentNumber
+      m_condition: 3
+      m_target: 2
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 2
+    m_progress:
+      m_paramater:
+      m_target: 0
+      m_startValue: 0
+  - m_id: UnlockDevs
+    m_gameCenterId: com.prettygreat.landsliders.unlockdevs
+    m_androidId: CgkItt3YhoUPEAIQAw
+    m_checks:
+    - m_paramater: Stats.luke.Total.Current
+      m_condition: 3
+      m_target: 1
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 0
+    - m_paramater: Stats.hugh.Total.Current
+      m_condition: 3
+      m_target: 1
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 0
+    - m_paramater: Stats.phil.Total.Current
+      m_condition: 3
+      m_target: 1
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 0
+    - m_paramater: Stats.baz.Total.Current
+      m_condition: 3
+      m_target: 1
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 0
+    m_progress:
+      m_paramater:
+      m_target: 0
+      m_startValue: 0
+  - m_id: ReachLevel9
+    m_gameCenterId: com.prettygreat.landsliders.reachLevel9
+    m_androidId: CgkItt3YhoUPEAIQBA
+    m_checks:
+    - m_paramater: Levels.CurrentNumber
+      m_condition: 3
+      m_target: 8
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 2
+    m_progress:
+      m_paramater:
+      m_target: 0
+      m_startValue: 0
+  - m_id: 100quests
+    m_gameCenterId: com.prettygreat.landsliders.100quests
+    m_androidId: CgkItt3YhoUPEAIQBQ
+    m_checks:
+    - m_paramater: Stats.MissionsPassed.Total.Current
+      m_condition: 3
+      m_target: 100
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 0
+    m_progress:
+      m_paramater: Stats.MissionsPassed.Total.Current
+      m_target: 100
+      m_startValue: 0
+  - m_id: Fall100
+    m_gameCenterId: com.prettygreat.landsliders.fall100
+    m_androidId: CgkItt3YhoUPEAIQBg
+    m_checks:
+    - m_paramater: Stats.PlayerKilledByAir.Total.Current
+      m_condition: 3
+      m_target: 100
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 0
+    m_progress:
+      m_paramater: Stats.PlayerKilledByAir.Total.Current
+      m_target: 100
+      m_startValue: 0
+  - m_id: ReachLevel5Fast
+    m_gameCenterId: com.prettygreat.landsliders.reachLevel5fast
+    m_androidId: CgkItt3YhoUPEAIQBw
+    m_checks:
+    - m_paramater: Levels.CurrentNumber
+      m_condition: 3
+      m_target: 4
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 2
+    - m_paramater: StatsTimer.AliveTimer.Life.Current
+      m_condition: 4
+      m_target: 60
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 2
+    m_progress:
+      m_paramater:
+      m_target: 0
+      m_startValue: 0
+  - m_id: 5star
+    m_gameCenterId: com.prettygreat.landsliders.5star
+    m_androidId: CgkItt3YhoUPEAIQCA
+    m_checks:
+    - m_paramater: Stats.CharactersMaxed.Total.Current
+      m_condition: 3
+      m_target: 1
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 0
+    m_progress:
+      m_paramater:
+      m_target: 0
+      m_startValue: 0
+  - m_id: 500elevators
+    m_gameCenterId: com.prettygreat.landsliders.500elevators
+    m_androidId: CgkItt3YhoUPEAIQCQ
+    m_checks:
+    - m_paramater: Stats.RideElevator.Total.Current
+      m_condition: 3
+      m_target: 100
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 0
+    m_progress:
+      m_paramater: Stats.RideElevator.Total.Current
+      m_target: 100
+      m_startValue: 0
+  - m_id: Altar
+    m_gameCenterId: com.prettygreat.landsliders.altar
+    m_androidId: CgkItt3YhoUPEAIQCg
+    m_checks:
+    - m_paramater: Stats.AltarSpawn.Total.Current
+      m_condition: 3
+      m_target: 1
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 0
+    m_progress:
+      m_paramater:
+      m_target: 1000
+      m_startValue: 0
+  - m_id: CrossBridges
+    m_gameCenterId: com.prettygreat.landsliders.crossBridges
+    m_androidId: CgkItt3YhoUPEAIQCw
+    m_checks:
+    - m_paramater: Stats.BridgeCross.Total.Current
+      m_condition: 3
+      m_target: 3
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 0
+    m_progress:
+      m_paramater: Stats.BridgeCross.Total.Current
+      m_target: 3
+      m_startValue: 0
+  - m_id: 1000coins
+    m_gameCenterId: com.prettygreat.landsliders.1000coins
+    m_androidId: CgkItt3YhoUPEAIQDA
+    m_checks:
+    - m_paramater: Stats.coin.Total.Current
+      m_condition: 3
+      m_target: 1000
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 0
+    m_progress:
+      m_paramater: Stats.coin.Total.Current
+      m_target: 1000
+      m_startValue: 0
+  - m_id: CatchWabbits
+    m_gameCenterId: com.prettygreat.landsliders.grow
+    m_androidId: CgkItt3YhoUPEAIQDQ
+    m_checks:
+    - m_paramater: Stats.GoldRabbitKilledByPlayer.Total.Current
+      m_condition: 3
+      m_target: 10
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 0
+    m_progress:
+      m_paramater: Stats.GoldRabbitKilledByPlayer.Total.Current
+      m_target: 10
+      m_startValue: 0
+  - m_id: FindStash
+    m_gameCenterId: com.prettygreat.landsliders.findStash
+    m_androidId: CgkItt3YhoUPEAIQDg
+    m_checks:
+    - m_paramater: Stats.SnowmanParty.Total.Current
+      m_condition: 3
+      m_target: 1
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 0
+    m_progress:
+      m_paramater:
+      m_target: 1000
+      m_startValue: 0
+  - m_id: PostScore
+    m_gameCenterId: com.prettygreat.landsliders.postScore
+    m_androidId: CgkItt3YhoUPEAIQDw
+    m_checks:
+    - m_paramater: Stats.SharedScore.Total.Current
+      m_condition: 3
+      m_target: 1
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 0
+    m_progress:
+      m_paramater:
+      m_target: 0
+      m_startValue: 0
+  - m_id: Unlock25
+    m_gameCenterId: com.prettygreat.landsliders.unlock25
+    m_androidId: CgkItt3YhoUPEAIQEA
+    m_checks:
+    - m_paramater: Player.UnlockedCount
+      m_condition: 3
+      m_target: 25
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 0
+    m_progress:
+      m_paramater: Player.UnlockedCount
+      m_target: 25
+      m_startValue: 0
+  - m_id: Arg
+    m_gameCenterId: com.prettygreat.landsliders.arg
+    m_androidId: CgkItt3YhoUPEAIQEQ
+    m_checks:
+    - m_paramater: Stats.CodeBroken.Total.Current
+      m_condition: 3
+      m_target: 1
+      m_startValue: 0
+      m_location: 0
+      m_resetLocation: 0
+    m_progress:
+      m_paramater: Stats.CodeBroken.Total.Current
+      m_target: 1
+      m_startValue: 0
+  m_framesBetweenChecks: 10
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

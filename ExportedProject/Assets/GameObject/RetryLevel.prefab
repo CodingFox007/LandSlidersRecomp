@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+--- !u!1 &1709254077376921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 114618682377417806}
+  - component: {fileID: 114703437598541787}
+  - component: {fileID: 114884547391421755}
+  m_Layer: 0
+  m_Name: RetryLevel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b5fbbc0ebc0bc278320a0357bb65fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_priority: 1
+  m_color: {r: 0.9852941, g: 0.9768002, b: 0.8621323, a: 1}
+  m_intensity: 0.8
+  m_tweenTime: 0
+  m_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_pingpong: 0
+  m_pongMultiplier: 1
+  m_hasSecondaryLighting: 0
+  m_secondaryMinDelayTime: 5
+  m_secondaryMaxDelayTime: 10
+  m_secondaryMinHoldTime: 0.7
+  m_secondaryMaxHoldTime: 1
+  m_secondaryColor: {r: 1, g: 1, b: 1, a: 1}
+  m_secondaryIntensity: 0
+  m_onTriggerSecondary:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  m_onUntriggerSecondary:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  m_secondaryIntensityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_secondaryColorCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114703437598541787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a19a83ff10bbc18d47ce74638589ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_priority: 1
+  m_minRot: 35
+  m_maxRot: 35
+  m_minHeight: 60
+  m_maxHeight: 392.47
+  m_useDefaultFogSettings: 1
+  m_fogColor: {r: 0.7058824, g: 0.92156863, b: 0.972549, a: 1}
+  m_colorize: {r: 1, g: 1, b: 1, a: 1}
+  m_fogMinHeight: -80
+  m_fogMaxHeight: -5
+  m_fogTexture: {fileID: 0}
+  m_tweenTime: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409054382c13ee7d4e9126c1b58d3c2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seed: 0
+  m_mapsResources:
+  - m_path: Maps/RetryWorld/RetryMap
+    m_chance: 1
+  m_dynamicTiles: []
+  m_dynamicTilesValues: []
+  m_sceneryDensity: 0.45
+  m_waterSceneryDensity: 0.45
+  m_cloudsPrefab: {fileID: 1709254077376921, guid: ded84d2edd9b4fd408fa29e9b816c8e4,
+    type: 2}
+  m_spawnPos: {x: 0, y: 0, z: 0}
+  m_overrideTilesetGroup: {fileID: 0}
+  m_onLoadComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114618682377417806}
+        m_MethodName: Trigger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 114703437598541787}
+        m_MethodName: Trigger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  m_onUnloadComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114618682377417806}
+        m_MethodName: Untrigger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 114703437598541787}
+        m_MethodName: Untrigger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  m_objectOfDesire: collectible
+  m_bonusObjectsOnComplete: 5
+  m_debugOptions:
+    layer0Visible: 1
+    layer1Visible: 1
+    layer2Visible: 1
+    showGridLayer0: 1
+    showGridLayer1: 0
+    showGridLayer2: 0
+    updateHidden: 1
+    reloadHidden: 1
+    nextHidden: 1
+    prevHidden: 1
+    m_usedSeeds: 
+    m_seedIdx: 0
+--- !u!114 &114884547391421755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd91aa163d3487f90838ec55307e18e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_cloudRings:
+  - m_clouds:
+    - {fileID: 114703437598541787, guid: 52ed825ed4062cf4fb73034535f80501, type: 2}
+    - {fileID: 114703437598541787, guid: 7ffd9a9389a389f498da48e6585216d9, type: 2}
+    - {fileID: 114703437598541787, guid: 85fe38573cb827049aa90d669ca8dad0, type: 2}
+    m_angleSpacing:
+      m_min: 25
+      m_max: 35
+    m_distance:
+      m_min: 50
+      m_max: 65
+    m_height:
+      m_min: 20
+      m_max: 30
+    m_removeFront: 0
+  - m_clouds:
+    - {fileID: 114703437598541787, guid: 52ed825ed4062cf4fb73034535f80501, type: 2}
+    - {fileID: 114703437598541787, guid: 7ffd9a9389a389f498da48e6585216d9, type: 2}
+    - {fileID: 114703437598541787, guid: 85fe38573cb827049aa90d669ca8dad0, type: 2}
+    m_angleSpacing:
+      m_min: 15
+      m_max: 20
+    m_distance:
+      m_min: 10
+      m_max: 120
+    m_height:
+      m_min: -10
+      m_max: -80
+    m_removeFront: 0
+  - m_clouds:
+    - {fileID: 114703437598541787, guid: 6fd29c430f110f2438a4b77420ade1eb, type: 2}
+    - {fileID: 114703437598541787, guid: 92568a1c858aaf84586d5f6538e32eef, type: 2}
+    - {fileID: 114703437598541787, guid: a2dd83a5725971141874de6cb243df2d, type: 2}
+    m_angleSpacing:
+      m_min: 15
+      m_max: 20
+    m_distance:
+      m_min: 5
+      m_max: 170
+    m_height:
+      m_min: -50
+      m_max: -100
+    m_removeFront: 0

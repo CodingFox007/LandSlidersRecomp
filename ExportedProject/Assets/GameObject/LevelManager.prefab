@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 114618682377417806}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 780c78d4af376959b095359d8460246f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_testLevel: {fileID: 114724804207875695, guid: d08b00505a8c2d648a24b031a06c4821, type: 2}
+  m_levels:
+  - {fileID: 114724804207875695, guid: ed0b8aa371962ac489efbe9a69142d33, type: 2}
+  - {fileID: 114724804207875695, guid: cffdaed842f68e148b7d00990d4c473f, type: 2}
+  - {fileID: 114724804207875695, guid: b829c57fbcec01f4ca47138db802e74b, type: 2}
+  - {fileID: 114724804207875695, guid: d91cd454f4980194189cbfc30d131086, type: 2}
+  - {fileID: 114724804207875695, guid: 648701e430247804b9087cf611fcfae8, type: 2}
+  - {fileID: 114724804207875695, guid: 39e9699c5a8314546a4d2cc07f4f3631, type: 2}
+  - {fileID: 114724804207875695, guid: 43953f626b9c49549bdff08382c9fd91, type: 2}
+  - {fileID: 114724804207875695, guid: 3242e3b964d2f164bace418aa1f94cb4, type: 2}
+  - {fileID: 114724804207875695, guid: c7b91d7cc1cb4944dacf413cb9c60e5b, type: 2}
+  - {fileID: 114724804207875695, guid: 5583924b8e42c75468c6017ab42a0315, type: 2}
+  - {fileID: 114724804207875695, guid: 0ef341979cb41dd4ca2e0d7ac1ad6e17, type: 2}
+  m_startLevel: {fileID: 114724804207875695, guid: 4a76bdb060fb3b24da188805733e85d8, type: 2}
+  m_retryLevel: {fileID: 114724804207875695, guid: 9f9bd4f068753d1429b14c17b9715b92, type: 2}
+  m_tutorialLevel: {fileID: 114724804207875695, guid: 9a226a89798fc794383de733c356a002, type: 2}
+  m_tilesetGroups:
+  - {fileID: 114724804207875695, guid: f4fffa48fd938384fa16d454fff0964b, type: 2}
+  - {fileID: 114724804207875695, guid: 4f955a40f689dac4186cb0d9d47216f9, type: 2}
+  - {fileID: 114724804207875695, guid: 9c9f3ed38c556944ea1786c9b1a45ef1, type: 2}
+  - {fileID: 114724804207875695, guid: bb41944bd39fcb8428114b81407c5cd6, type: 2}
+  - {fileID: 114724804207875695, guid: f23ee8755e1f4554f9b0e2737e6108a6, type: 2}
+  - {fileID: 114724804207875695, guid: 0e9518f6582c0d54d86290689ea9b442, type: 2}
+  - {fileID: 114724804207875695, guid: cfd372243f22dbc46910d53b0f8d13d4, type: 2}
+  - {fileID: 114724804207875695, guid: 65f1a2839bc68c84e92a1ccef064b442, type: 2}
+  - {fileID: 114724804207875695, guid: 3c498a83ce0b17d49b43ba7056a86584, type: 2}
+  m_tilesetsValues:
+  - 4
+  - 2
+  - 7
+  - 5
+  - 4
+  - 2
+  - 4
+  - 1
+  - 1
+  m_tilesetHoldCount:
+    m_min: 2
+    m_max: 3
+  m_blankTilesetGroup: {fileID: 114724804207875695, guid: 7994a058ed77aac4ca050f205ec89983, type: 2}
+  m_wakeMaterials:
+  - {fileID: 2100000, guid: 56ac7a96976cde641b80752d5913820c, type: 2}
+  - {fileID: 2100000, guid: a5cd50da813a13f4387f66d5a6c1884d, type: 2}
+  - {fileID: 2100000, guid: 2bf066c7dd1cf2b42a308bbacacb1d10, type: 2}
+  m_waterWakeAnimation:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.5
+      value: -0.034487274
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_waterWakeAnimationSpeed: 0.5
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75aaf85af866549438e5238f4fc6b291, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  AddMeshColliders: 1
+  RemoveLeftOvers: 1
+  PrepareForLightmaps: 0
+  currentOptimizationLevelIndex: 0
+  CombineAtStart: 0
+  CombineOnlySelected: 0
+  CombineDynamicSmooth: 1
+  CombineOnlyStatic: 0
+  MarkStaticAuto: 0
+  mapOptimizationLevel:
+  - low
+  - medium
+  - high
+  list: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
