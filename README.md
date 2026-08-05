@@ -1,4 +1,4 @@
-![Decomp Logo](LandSlidersRecomp\ExportedProject\Assets\Texture2D\LogoDecomp.png)
+![Decomp Logo](LandSlidersRecomp/ExportedProject/Assets/Texture2D/LogoDecomp.png)
 # LandSlidersRecomp
 A full recompilation of the old mobile game Land Sliders by PrettyGreat
 
