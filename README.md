@@ -27,3 +27,7 @@ This project is intended for preservation, research, and educational purposes. N
 - Import project into Unity. Should default to 5.6.1
 - Select file, then build settings
 - Choose your platform then click build
+
+
+## Disclaimer
+-This is more of a personal backup of the project, but I am welcome to any help I can get with this.
